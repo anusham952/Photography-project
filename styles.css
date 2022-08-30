@@ -1,1 +1,115 @@
 
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#firstview{
+    display: flex;
+    height: 100%;
+    background-image: url(/photography-project/images/frant.jpg);
+    
+}
+#first-text{
+    height: 100vh;
+}
+#first-text{
+    display: flex;
+    flex: 0 1 40vw;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+#first-image{
+    background-image: url(/photography-project/images/display.jpeg); 
+    background-position-x: center;
+    background-position-y: center;
+    background-attachment: initial;
+    background-origin: initial;
+    background-color: initial;
+    background-size: cover;
+    flex: 0 1 60vw;
+    margin: 0;
+    animation:slider 9s infinite linear;
+}
+
+@keyframes slider{
+    0%{ background-image: url(/photography-project/images/slid1.jpg);background-size: 100% 100%;}
+    35%{ background-image: url(/photography-project/images/slide2.jpg);background-size: 100% 100%;}
+    55%{background-image: url(/photography-project/images/slide4.jpg);background-size: 100% 100%;}
+    75%{ background-image: url(/photography-project/images/slide3.jpg); background-size: 100% 100%;}
+}
+
+main{
+    max-width: 900px;
+    margin: auto;
+    box-shadow: 30px 0px 40px rgb(0 0 0 / 10%), -30px 0px 40px rgb(0 0 0 / 10%);
+}
+.section-1{
+    padding: 1rem;
+    text-align: center;
+    color: #000;
+    background-color: rgb(246, 211, 211);
+}
+
+.section-2{
+    padding: 1rem;
+    text-align: center;
+    color: #000;
+    background-color: rgb(246, 211, 211);
+}
+.section-3{
+    padding: 1rem;
+    text-align: center;
+    color: #000;
+    background-color: rgb(246, 211, 211);
+
+}
+.section-4{
+    padding: 1rem;
+    text-align: center;
+    color: #000;
+    background-color: rgb(246, 211, 211);
+}
+.section-5{
+    padding: 1rem;
+    text-align: center;
+    color: black;
+    background-color: rgb(246, 211, 211);
+}
+
+img{
+    display: block;
+    width: 100%;
+   
+   
+}
+.btn{
+    display: inline-block;
+    background: #ff523b;
+    color: #fff;
+    margin: 30px 0;
+    padding: 8px 30px;
+    border-radius: 10px;
+    transition: background 0.05;
+}
+.btn:hover{
+    background: #563434;
+}
+a{
+    text-decoration:none;
+    color: #555;
+}
+footer{
+    text-align: center;
+    color: rgb(242, 235, 246);
+    background-color: rgb(34, 34, 33);
+    padding: 2rem 1rem;
+    margin: auto;
+}
+footer h1{
+    letter-spacing: 0.5rem;
+}
